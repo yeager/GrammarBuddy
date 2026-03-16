@@ -1,13 +1,14 @@
-# GrammarBuddy - Swedish Grammar Training
-# Copyright (C) 2026 GrammarBuddy
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the GrammarBuddy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GrammarBuddy 1.0.0\n"
+"Project-Id-Version: GrammarBuddy 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"POT-Creation-Date: 2026-03-16 11:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,90 +17,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: grammarbuddy/window.py
-msgid "Inställningar"
+#: grammarbuddy/window.py:66 grammarbuddy/window.py:432
+msgid "Settings"
 msgstr ""
 
-#: grammarbuddy/window.py
-msgid "Statistik"
+#: grammarbuddy/window.py:72
+msgid "Statistics"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:103
 msgid "Textanalys"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:107
 msgid "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:116
 msgid "Nivå:"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:138
 msgid "Skriv din mening här..."
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:148
 msgid "Analysera ✏️"
 msgstr ""
 
-#: grammarbuddy/window.py
-msgid "Rensa"
+#: grammarbuddy/window.py:154
+msgid "Clear"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:161
 msgid "Resultat"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:167 grammarbuddy/window.py:370
 msgid "Resultaten visas här efter analys."
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:182
 msgid "Föreslagen korrigering"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:199
 msgid "Poäng:"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:210
 msgid "Övningar"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:215
 msgid "Övningstyp:"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:234
 msgid "Tryck på 'Ny övning' för att börja!"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:242
 msgid "Skriv ditt svar här..."
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:250
 msgid "Kontrollera"
 msgstr ""
 
-#: grammarbuddy/window.py
-msgid "Ny övning"
+#: grammarbuddy/window.py:255
+msgid "New övning"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:259
 msgid "Ledtråd"
 msgstr ""
 
-#: grammarbuddy/window.py
+#: grammarbuddy/window.py:387
+msgid "Inga övningar tillgängliga för denna kombination."
+msgstr ""
+
+#: grammarbuddy/window.py:393
+msgid "Start en övning först!"
+msgstr ""
+
+#: grammarbuddy/window.py:422
 msgid "Din statistik"
 msgstr ""
 
-#: grammarbuddy/window.py
-msgid "Starta en övning först!"
-msgstr ""
-
-#: grammarbuddy/window.py
-msgid "Inga övningar tillgängliga för denna kombination."
+#: grammarbuddy/window.py:433
+msgid ""
+"Inställningar sparas automatiskt.\n"
+"\n"
+"AI-analys: Sätt miljövariabeln OPENAI_API_KEY\n"
+"för att aktivera AI-baserad grammatikanalys.\n"
+"\n"
 msgstr ""

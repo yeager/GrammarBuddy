@@ -1,0 +1,78 @@
+# Swedish translation
+# Copyright (C) 2024
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Analysera ✏️"
+msgstr "Analysera ✏️"
+
+msgid "Din statistik"
+msgstr "Din statistik"
+
+msgid "Föreslagen korrigering"
+msgstr "Föreslagen korrigering"
+
+msgid "Inga övningar tillgängliga för denna kombination."
+msgstr "Inga övningar tillgängliga för denna kombination."
+
+msgid "Inställningar"
+msgstr "Settings"
+
+msgid "Kontrollera"
+msgstr "Kontrollera"
+
+msgid "Ledtråd"
+msgstr "Ledtråd"
+
+msgid "Nivå:"
+msgstr "Nivå:"
+
+msgid "Ny övning"
+msgstr "New övning"
+
+msgid "Poäng:"
+msgstr "Poäng:"
+
+msgid "Rensa"
+msgstr "Clear"
+
+msgid "Resultat"
+msgstr "Resultat"
+
+msgid "Resultaten visas här efter analys."
+msgstr "Resultaten visas här efter analys."
+
+msgid "Skriv din mening här..."
+msgstr "Skriv din mening här..."
+
+msgid "Skriv ditt svar här..."
+msgstr "Skriv ditt svar här..."
+
+msgid "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+msgstr "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+
+msgid "Starta en övning först!"
+msgstr "Start en övning först!"
+
+msgid "Statistik"
+msgstr "Statistics"
+
+msgid "Textanalys"
+msgstr "Textanalys"
+
+msgid "Tryck på 'Ny övning' för att börja!"
+msgstr "Tryck på 'Ny övning' för att börja!"
+
+msgid "Övningar"
+msgstr "Övningar"
+
+msgid "Övningstyp:"
+msgstr "Övningstyp:"
+

@@ -63,13 +63,13 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
 
         # Settings button
         settings_btn = Gtk.Button(icon_name="emblem-system-symbolic")
-        settings_btn.set_tooltip_text(_("Inställningar"))
+        settings_btn.set_tooltip_text(_("Settings"))
         settings_btn.connect("clicked", self._on_settings)
         header.pack_end(settings_btn)
 
         # Stats button
         stats_btn = Gtk.Button(icon_name="view-list-symbolic")
-        stats_btn.set_tooltip_text(_("Statistik"))
+        stats_btn.set_tooltip_text(_("Statistics"))
         stats_btn.connect("clicked", self._on_show_stats)
         header.pack_end(stats_btn)
 
@@ -151,7 +151,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         analyze_btn.connect("clicked", self._on_analyze)
         btn_box.append(analyze_btn)
 
-        clear_btn = Gtk.Button(label=_("Rensa"))
+        clear_btn = Gtk.Button(label=_("Clear"))
         clear_btn.connect("clicked", self._on_clear)
         btn_box.append(clear_btn)
 
@@ -231,7 +231,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         ex_box.set_margin_end(12)
 
         self.exercise_label = Gtk.Label(
-            label=_("Tryck på 'Ny övning' för att börja!"),
+            label=_("Tryck på \'Ny övning\' för att börja!"),
             wrap=True,
         )
         self.exercise_label.add_css_class("title-3")
@@ -252,7 +252,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         check_btn.connect("clicked", self._on_check_answer)
         ex_btn_box.append(check_btn)
 
-        new_btn = Gtk.Button(label=_("Ny övning"))
+        new_btn = Gtk.Button(label=_("New övning"))
         new_btn.connect("clicked", self._on_new_exercise)
         ex_btn_box.append(new_btn)
 
@@ -390,7 +390,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
     def _on_check_answer(self, _widget):
         """Kontrollera svar."""
         if not self.current_exercise:
-            self.exercise_feedback.set_label(_("Starta en övning först!"))
+            self.exercise_feedback.set_label(_("Start en övning först!"))
             return
 
         answer = self.answer_entry.get_text()
@@ -429,7 +429,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         """Visa inställningar."""
         dialog = Adw.MessageDialog(
             transient_for=self,
-            heading=_("Inställningar"),
+            heading=_("Settings"),
             body=_("Inställningar sparas automatiskt.\n\n"
                    "AI-analys: Sätt miljövariabeln OPENAI_API_KEY\n"
                    "för att aktivera AI-baserad grammatikanalys.\n\n"
