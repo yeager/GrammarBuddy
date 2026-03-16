@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the GrammarBuddy package.
+# This file is distributed under the same license as the grammarbuddy package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GrammarBuddy 1.0\n"
+"Project-Id-Version: grammarbuddy 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,15 +30,15 @@ msgid "Textanalys"
 msgstr ""
 
 #: grammarbuddy/window.py:107
-msgid "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+msgid "Write a sentence in Swedish. GrammarBuddy helps you with grammar!"
 msgstr ""
 
 #: grammarbuddy/window.py:116
-msgid "Nivå:"
+msgid "Level:"
 msgstr ""
 
 #: grammarbuddy/window.py:138
-msgid "Skriv din mening här..."
+msgid "Write your opinion here..."
 msgstr ""
 
 #: grammarbuddy/window.py:148
@@ -54,31 +54,31 @@ msgid "Resultat"
 msgstr ""
 
 #: grammarbuddy/window.py:167 grammarbuddy/window.py:370
-msgid "Resultaten visas här efter analys."
+msgid "The results are shown here after analysis."
 msgstr ""
 
 #: grammarbuddy/window.py:182
-msgid "Föreslagen korrigering"
+msgid "Proposed correction"
 msgstr ""
 
 #: grammarbuddy/window.py:199
-msgid "Poäng:"
+msgid "Points:"
 msgstr ""
 
 #: grammarbuddy/window.py:210
-msgid "Övningar"
+msgid "Exercises"
 msgstr ""
 
 #: grammarbuddy/window.py:215
-msgid "Övningstyp:"
+msgid "Type of exercise:"
 msgstr ""
 
 #: grammarbuddy/window.py:234
-msgid "Tryck på 'Ny övning' för att börja!"
+msgid "Press 'New exercise' to start!"
 msgstr ""
 
 #: grammarbuddy/window.py:242
-msgid "Skriv ditt svar här..."
+msgid "Write your answer here..."
 msgstr ""
 
 #: grammarbuddy/window.py:250
@@ -86,19 +86,19 @@ msgid "Kontrollera"
 msgstr ""
 
 #: grammarbuddy/window.py:255
-msgid "New övning"
+msgid "New exercise"
 msgstr ""
 
 #: grammarbuddy/window.py:259
-msgid "Ledtråd"
+msgid "Clue"
 msgstr ""
 
 #: grammarbuddy/window.py:387
-msgid "Inga övningar tillgängliga för denna kombination."
+msgid "No exercises available for this combination."
 msgstr ""
 
 #: grammarbuddy/window.py:393
-msgid "Start en övning först!"
+msgid "Start an exercise first!"
 msgstr ""
 
 #: grammarbuddy/window.py:422

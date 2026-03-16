@@ -104,7 +104,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
 
         # Instructions
         intro = Gtk.Label(
-            label=_("Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"),
+            label=_("Write a sentence in Swedish. GrammarBuddy helps you with grammar!"),
             wrap=True,
         )
         intro.add_css_class("title-4")
@@ -113,7 +113,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         # Difficulty selector
         diff_box = Gtk.Box(spacing=8)
         diff_box.set_halign(Gtk.Align.CENTER)
-        diff_label = Gtk.Label(label=_("Nivå:"))
+        diff_label = Gtk.Label(label=_("Level:"))
         diff_box.append(diff_label)
 
         self.diff_dropdown = Gtk.DropDown.new_from_strings(
@@ -135,7 +135,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         self.text_view.set_right_margin(8)
         self.text_view.set_top_margin(8)
         self.text_view.set_bottom_margin(8)
-        self.text_view.get_buffer().set_text(_("Skriv din mening här..."))
+        self.text_view.get_buffer().set_text(_("Write your opinion here..."))
 
         scrolled.set_child(self.text_view)
         frame.set_child(scrolled)
@@ -164,7 +164,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         results_scroll.set_vexpand(True)
 
         self.results_label = Gtk.Label(
-            label=_("Resultaten visas här efter analys."),
+            label=_("The results are shown here after analysis."),
             wrap=True,
             selectable=True,
         )
@@ -179,7 +179,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         page.append(self.results_frame)
 
         # Corrected text
-        self.corrected_frame = Gtk.Frame(label=_("Föreslagen korrigering"))
+        self.corrected_frame = Gtk.Frame(label=_("Proposed correction"))
         self.corrected_label = Gtk.Label(wrap=True, selectable=True)
         self.corrected_label.set_xalign(0)
         self.corrected_label.set_margin_top(8)
@@ -196,7 +196,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         self.score_bar.set_max_value(100)
         self.score_bar.set_value(0)
         self.score_bar.set_margin_top(8)
-        page.append(Gtk.Label(label=_("Poäng:"), xalign=0))
+        page.append(Gtk.Label(label=_("Points:"), xalign=0))
         page.append(self.score_bar)
 
     def _build_exercise_page(self):
@@ -207,12 +207,12 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         page.set_margin_start(16)
         page.set_margin_end(16)
 
-        self.stack.add_titled(page, "exercises", _("Övningar"))
+        self.stack.add_titled(page, "exercises", _("Exercises"))
 
         # Mode selector
         mode_box = Gtk.Box(spacing=8)
         mode_box.set_halign(Gtk.Align.CENTER)
-        mode_label = Gtk.Label(label=_("Övningstyp:"))
+        mode_label = Gtk.Label(label=_("Type of exercise:"))
         mode_box.append(mode_label)
 
         mode_strings = [MODE_LABELS[m] for m in
@@ -231,7 +231,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         ex_box.set_margin_end(12)
 
         self.exercise_label = Gtk.Label(
-            label=_("Tryck på \'Ny övning\' för att börja!"),
+            label=_("Press \'New exercise\' to start!"),
             wrap=True,
         )
         self.exercise_label.add_css_class("title-3")
@@ -239,7 +239,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
 
         # Answer input
         self.answer_entry = Gtk.Entry()
-        self.answer_entry.set_placeholder_text(_("Skriv ditt svar här..."))
+        self.answer_entry.set_placeholder_text(_("Write your answer here..."))
         self.answer_entry.connect("activate", self._on_check_answer)
         ex_box.append(self.answer_entry)
 
@@ -252,11 +252,11 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         check_btn.connect("clicked", self._on_check_answer)
         ex_btn_box.append(check_btn)
 
-        new_btn = Gtk.Button(label=_("New övning"))
+        new_btn = Gtk.Button(label=_("New exercise"))
         new_btn.connect("clicked", self._on_new_exercise)
         ex_btn_box.append(new_btn)
 
-        hint_btn = Gtk.Button(label=_("Ledtråd"))
+        hint_btn = Gtk.Button(label=_("Clue"))
         hint_btn.connect("clicked", self._on_show_hint)
         ex_btn_box.append(hint_btn)
 
@@ -367,7 +367,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
     def _on_clear(self, _btn):
         """Rensa textfältet."""
         self.text_view.get_buffer().set_text("")
-        self.results_label.set_label(_("Resultaten visas här efter analys."))
+        self.results_label.set_label(_("The results are shown here after analysis."))
         self.corrected_frame.set_visible(False)
         self.score_bar.set_value(0)
 
@@ -384,13 +384,13 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
             self.exercise_feedback.set_label("")
         else:
             self.exercise_label.set_label(
-                _("Inga övningar tillgängliga för denna kombination.")
+                _("No exercises available for this combination.")
             )
 
     def _on_check_answer(self, _widget):
         """Kontrollera svar."""
         if not self.current_exercise:
-            self.exercise_feedback.set_label(_("Start en övning först!"))
+            self.exercise_feedback.set_label(_("Start an exercise first!"))
             return
 
         answer = self.answer_entry.get_text()
