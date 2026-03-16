@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=GrammarBuddy
+Name[sv]=Grammatikcoach
+Comment=Grammar exercises with feedback
+Comment[sv]=Grammatikövningar med feedback
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m grammarbuddy
+Icon=grammarbuddy
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
