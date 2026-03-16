@@ -159,7 +159,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         page.append(btn_box)
 
         # Results area
-        self.results_frame = Gtk.Frame(label=_("Resultat"))
+        self.results_frame = Gtk.Frame(label=_("Results"))
         results_scroll = Gtk.ScrolledWindow()
         results_scroll.set_min_content_height(150)
         results_scroll.set_vexpand(True)
@@ -420,7 +420,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         """Visa statistikdialog."""
         dialog = Adw.MessageDialog(
             transient_for=self,
-            heading=_("Din statistik"),
+            heading=_("Your statistics"),
             body=self._stats_text(),
         )
         dialog.add_response("ok", "OK")

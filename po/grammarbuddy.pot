@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grammarbuddy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 16:07+0100\n"
+"POT-Creation-Date: 2026-03-16 19:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid "Clear"
 msgstr ""
 
 #: grammarbuddy/window.py:162
-msgid "Resultat"
+msgid "Results"
 msgstr ""
 
 #: grammarbuddy/window.py:168 grammarbuddy/window.py:371
@@ -142,7 +142,7 @@ msgid "No clue available."
 msgstr ""
 
 #: grammarbuddy/window.py:423
-msgid "Din statistik"
+msgid "Your statistics"
 msgstr ""
 
 #: grammarbuddy/window.py:430
