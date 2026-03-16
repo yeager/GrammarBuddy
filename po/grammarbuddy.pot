@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: grammarbuddy 0.1.0\n"
+"Project-Id-Version: grammarbuddy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:47+0100\n"
+"POT-Creation-Date: 2026-03-16 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: grammarbuddy/window.py:433
 msgid ""
-"Inställningar sparas automatiskt.\n"
+"Settings are automatically saved.\n"
 "\n"
 "AI-analys: Sätt miljövariabeln OPENAI_API_KEY\n"
 "för att aktivera AI-baserad grammatikanalys.\n"

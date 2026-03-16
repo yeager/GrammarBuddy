@@ -118,3 +118,6 @@ msgstr "Övningar"
 msgid "Övningstyp:"
 msgstr "Övningstyp:"
 
+
+msgid "Settings are automatically saved"
+msgstr "Inställningar sparas automatiskt"

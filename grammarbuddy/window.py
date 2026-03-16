@@ -430,7 +430,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         dialog = Adw.MessageDialog(
             transient_for=self,
             heading=_("Settings"),
-            body=_("Inställningar sparas automatiskt.\n\n"
+            body=_("Settings are automatically saved.\n\n"
                    "AI-analys: Sätt miljövariabeln OPENAI_API_KEY\n"
                    "för att aktivera AI-baserad grammatikanalys.\n\n"
                    f"AI-status: {'Aktiv ✓' if self.engine.ai_available else 'Ej aktiv'}"),
