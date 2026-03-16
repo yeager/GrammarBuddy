@@ -1,0 +1,81 @@
+# Swedish translations for GrammarBuddy
+# Copyright (C) 2026 GrammarBuddy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GrammarBuddy 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"PO-Revision-Date: 2026-03-16 00:00+0000\n"
+"Last-Translator: GrammarBuddy Team\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Inställningar"
+msgstr "Inställningar"
+
+msgid "Statistik"
+msgstr "Statistik"
+
+msgid "Textanalys"
+msgstr "Textanalys"
+
+msgid "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+msgstr "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+
+msgid "Nivå:"
+msgstr "Nivå:"
+
+msgid "Skriv din mening här..."
+msgstr "Skriv din mening här..."
+
+msgid "Analysera ✏️"
+msgstr "Analysera ✏️"
+
+msgid "Rensa"
+msgstr "Rensa"
+
+msgid "Resultat"
+msgstr "Resultat"
+
+msgid "Resultaten visas här efter analys."
+msgstr "Resultaten visas här efter analys."
+
+msgid "Föreslagen korrigering"
+msgstr "Föreslagen korrigering"
+
+msgid "Poäng:"
+msgstr "Poäng:"
+
+msgid "Övningar"
+msgstr "Övningar"
+
+msgid "Övningstyp:"
+msgstr "Övningstyp:"
+
+msgid "Tryck på 'Ny övning' för att börja!"
+msgstr "Tryck på 'Ny övning' för att börja!"
+
+msgid "Skriv ditt svar här..."
+msgstr "Skriv ditt svar här..."
+
+msgid "Kontrollera"
+msgstr "Kontrollera"
+
+msgid "Ny övning"
+msgstr "Ny övning"
+
+msgid "Ledtråd"
+msgstr "Ledtråd"
+
+msgid "Din statistik"
+msgstr "Din statistik"
+
+msgid "Starta en övning först!"
+msgstr "Starta en övning först!"
+
+msgid "Inga övningar tillgängliga för denna kombination."
+msgstr "Inga övningar tillgängliga för denna kombination."

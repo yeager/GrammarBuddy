@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=GrammarBuddy
+Name[sv]=GrammarBuddy
+GenericName=Swedish Grammar Trainer
+GenericName[sv]=Svensk grammatikträning
+Comment=Learn Swedish grammar with AI-powered feedback
+Comment[sv]=Lär dig svensk grammatik med AI-baserad feedback
+Exec=grammarbuddy
+Icon=se.grammarbuddy.app
+Terminal=false
+Type=Application
+Categories=Education;Languages;
+Keywords=Swedish;grammar;SFI;language;learning;
+Keywords[sv]=svenska;grammatik;SFI;språk;inlärning;
+StartupNotify=true
