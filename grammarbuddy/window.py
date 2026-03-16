@@ -1,8 +1,9 @@
-"""Huvudfönster för GrammarBuddy."""
+""_("Main window of GrammarBuddy.")""
 
 import gi
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
+from grammarbuddy.i18n import _
 from gi.repository import Gtk, Adw, GLib, Pango  # noqa: E402
 
 from .grammar_engine import (
@@ -28,7 +29,7 @@ except FileNotFoundError:
 
 
 class GrammarBuddyWindow(Adw.ApplicationWindow):
-    """Huvudfönster."""
+    ""_("Main window.")""
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -38,7 +39,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         self.settings = load_settings()
         self.current_exercise = None
 
-        self.set_title("GrammarBuddy – Svensk grammatikträning")
+        self.set_title(_("GrammarBuddy - Swedish grammar training"))
         self.set_default_size(900, 700)
 
         self._build_ui()
@@ -57,7 +58,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         # Title
         title = Adw.WindowTitle(
             title="GrammarBuddy",
-            subtitle="Svensk grammatikträning"
+            subtitle=_("Swedish grammar training")
         )
         header.set_title_widget(title)
 
@@ -93,7 +94,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         self._build_progress_bar()
 
     def _build_analysis_page(self):
-        """Sida för fri textanalys."""
+        ""_("Page for free text analysis.")""
         page = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
         page.set_margin_top(16)
         page.set_margin_bottom(16)
@@ -200,7 +201,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         page.append(self.score_bar)
 
     def _build_exercise_page(self):
-        """Sida för övningar."""
+        ""_("Page for exercises.")""
         page = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
         page.set_margin_top(16)
         page.set_margin_bottom(16)
@@ -307,14 +308,14 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
     def _streak_text(self) -> str:
         streak = self.progress.get("streak", 0)
         best = self.progress.get("best_streak", 0)
-        return f"🔥 Svit: {streak} | Bästa: {best}"
+        return f_("🔥 Suite: { "role": { "best".}")
 
     def _progress_text(self) -> str:
         total = self.progress.get("total_exercises", 0)
         acc = get_accuracy(self.progress)
         analyses = self.progress.get("total_analyses", 0)
-        return (f"Övningar: {total} | "
-                f"Rätt: {acc:.0f}% | "
+        return (f_("Exercises: {total} |")
+                f_("Correct: {acc:.0f}% |")
                 f"Analyser: {analyses}")
 
     def _apply_settings(self):
@@ -365,14 +366,14 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         self._update_status()
 
     def _on_clear(self, _btn):
-        """Rensa textfältet."""
+        ""_("Clear the text field.")""
         self.text_view.get_buffer().set_text("")
         self.results_label.set_label(_("The results are shown here after analysis."))
         self.corrected_frame.set_visible(False)
         self.score_bar.set_value(0)
 
     def _on_new_exercise(self, _btn):
-        """Ladda ny övning."""
+        ""_("Load new exercise.")""
         difficulty = self._get_difficulty()
         mode = self._get_mode()
 
@@ -409,10 +410,10 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         self._update_status()
 
     def _on_show_hint(self, _btn):
-        """Visa ledtråd."""
+        ""_("View clue.")""
         if self.current_exercise:
             self.exercise_feedback.set_label(
-                f"💡 {self.current_exercise.get('hint', 'Ingen ledtråd tillgänglig.')}"
+                f"💡 {self.current_exercise.get('hint', _("No clue available."))}"
             )
 
     def _on_show_stats(self, _btn):
@@ -426,13 +427,13 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         dialog.present()
 
     def _on_settings(self, _btn):
-        """Visa inställningar."""
+        ""_("View settings.")""
         dialog = Adw.MessageDialog(
             transient_for=self,
             heading=_("Settings"),
             body=_("Settings are automatically saved.\n\n"
-                   "AI-analys: Sätt miljövariabeln OPENAI_API_KEY\n"
-                   "för att aktivera AI-baserad grammatikanalys.\n\n"
+                   _("AI analysis: Set the environment variable OPENAI_API_KEY\n")
+                   _("to enable AI-based grammar analysis.\n\n")
                    f"AI-status: {'Aktiv ✓' if self.engine.ai_available else 'Ej aktiv'}"),
         )
         dialog.add_response("ok", "OK")
@@ -445,12 +446,12 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         lines = [
             f"Totalt antal övningar: {p.get('total_exercises', 0)}",
             f"Rätta svar: {p.get('correct_answers', 0)}",
-            f"Träffsäkerhet: {acc:.1f}%",
+            f_("Accuracy: {acc:.1f}%"),
             f"Bästa svit: {p.get('best_streak', 0)}",
             f"Antal analyser: {p.get('total_analyses', 0)}",
-            f"Medelpoäng: {avg_score:.0f}",
+            f_("Average score: {avg_score:.0f}"),
             "",
-            "Per övningstyp:",
+            _("Per exercise type:"),
         ]
         for mode, label in MODE_LABELS.items():
             data = p.get("by_mode", {}).get(mode, {})

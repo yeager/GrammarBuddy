@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grammarbuddy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 16:02+0100\n"
+"POT-Creation-Date: 2026-03-16 16:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,99 +17,154 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: grammarbuddy/window.py:66 grammarbuddy/window.py:432
+#: grammarbuddy/window.py:1
+msgid "Main window of GrammarBuddy."
+msgstr ""
+
+#: grammarbuddy/window.py:32
+msgid "Main window."
+msgstr ""
+
+#: grammarbuddy/window.py:42
+msgid "GrammarBuddy - Swedish grammar training"
+msgstr ""
+
+#: grammarbuddy/window.py:61
+msgid "Swedish grammar training"
+msgstr ""
+
+#: grammarbuddy/window.py:67 grammarbuddy/window.py:433
 msgid "Settings"
 msgstr ""
 
-#: grammarbuddy/window.py:72
+#: grammarbuddy/window.py:73
 msgid "Statistics"
 msgstr ""
 
-#: grammarbuddy/window.py:103
+#: grammarbuddy/window.py:97
+msgid "Page for free text analysis."
+msgstr ""
+
+#: grammarbuddy/window.py:104
 msgid "Textanalys"
 msgstr ""
 
-#: grammarbuddy/window.py:107
+#: grammarbuddy/window.py:108
 msgid "Write a sentence in Swedish. GrammarBuddy helps you with grammar!"
 msgstr ""
 
-#: grammarbuddy/window.py:116
+#: grammarbuddy/window.py:117
 msgid "Level:"
 msgstr ""
 
-#: grammarbuddy/window.py:138
+#: grammarbuddy/window.py:139
 msgid "Write your opinion here..."
 msgstr ""
 
-#: grammarbuddy/window.py:148
+#: grammarbuddy/window.py:149
 msgid "Analysera ✏️"
 msgstr ""
 
-#: grammarbuddy/window.py:154
+#: grammarbuddy/window.py:155
 msgid "Clear"
 msgstr ""
 
-#: grammarbuddy/window.py:161
+#: grammarbuddy/window.py:162
 msgid "Resultat"
 msgstr ""
 
-#: grammarbuddy/window.py:167 grammarbuddy/window.py:370
+#: grammarbuddy/window.py:168 grammarbuddy/window.py:371
 msgid "The results are shown here after analysis."
 msgstr ""
 
-#: grammarbuddy/window.py:182
+#: grammarbuddy/window.py:183
 msgid "Proposed correction"
 msgstr ""
 
-#: grammarbuddy/window.py:199
+#: grammarbuddy/window.py:200
 msgid "Points:"
 msgstr ""
 
-#: grammarbuddy/window.py:210
+#: grammarbuddy/window.py:204
+msgid "Page for exercises."
+msgstr ""
+
+#: grammarbuddy/window.py:211
 msgid "Exercises"
 msgstr ""
 
-#: grammarbuddy/window.py:215
+#: grammarbuddy/window.py:216
 msgid "Type of exercise:"
 msgstr ""
 
-#: grammarbuddy/window.py:234
+#: grammarbuddy/window.py:235
 msgid "Press 'New exercise' to start!"
 msgstr ""
 
-#: grammarbuddy/window.py:242
+#: grammarbuddy/window.py:243
 msgid "Write your answer here..."
 msgstr ""
 
-#: grammarbuddy/window.py:250
+#: grammarbuddy/window.py:251
 msgid "Kontrollera"
 msgstr ""
 
-#: grammarbuddy/window.py:255
+#: grammarbuddy/window.py:256
 msgid "New exercise"
 msgstr ""
 
-#: grammarbuddy/window.py:259
+#: grammarbuddy/window.py:260
 msgid "Clue"
 msgstr ""
 
-#: grammarbuddy/window.py:387
+#: grammarbuddy/window.py:369
+msgid "Clear the text field."
+msgstr ""
+
+#: grammarbuddy/window.py:376
+msgid "Load new exercise."
+msgstr ""
+
+#: grammarbuddy/window.py:388
 msgid "No exercises available for this combination."
 msgstr ""
 
-#: grammarbuddy/window.py:393
+#: grammarbuddy/window.py:394
 msgid "Start an exercise first!"
 msgstr ""
 
-#: grammarbuddy/window.py:422
+#: grammarbuddy/window.py:413
+msgid "View clue."
+msgstr ""
+
+#: grammarbuddy/window.py:416
+msgid "No clue available."
+msgstr ""
+
+#: grammarbuddy/window.py:423
 msgid "Din statistik"
 msgstr ""
 
-#: grammarbuddy/window.py:433
+#: grammarbuddy/window.py:430
+msgid "View settings."
+msgstr ""
+
+#: grammarbuddy/window.py:435
+msgid "AI analysis: Set the environment variable OPENAI_API_KEY\n"
+msgstr ""
+
+#: grammarbuddy/window.py:436
+msgid ""
+"to enable AI-based grammar analysis.\n"
+"\n"
+msgstr ""
+
+#: grammarbuddy/window.py:434
 msgid ""
 "Settings are automatically saved.\n"
 "\n"
-"AI-analys: Sätt miljövariabeln OPENAI_API_KEY\n"
-"för att aktivera AI-baserad grammatikanalys.\n"
-"\n"
+msgstr ""
+
+#: grammarbuddy/window.py:454
+msgid "Per exercise type:"
 msgstr ""
