@@ -101,7 +101,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         page.set_margin_start(16)
         page.set_margin_end(16)
 
-        self.stack.add_titled(page, "analysis", _("Textanalys"))
+        self.stack.add_titled(page, "analysis", _("Text Analysis"))
 
         # Instructions
         intro = Gtk.Label(
@@ -146,7 +146,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         btn_box = Gtk.Box(spacing=8)
         btn_box.set_halign(Gtk.Align.CENTER)
 
-        analyze_btn = Gtk.Button(label=_("Analysera ✏️"))
+        analyze_btn = Gtk.Button(label=_("Analyze ✏️"))
         analyze_btn.add_css_class("suggested-action")
         analyze_btn.add_css_class("pill")
         analyze_btn.connect("clicked", self._on_analyze)
@@ -248,7 +248,7 @@ class GrammarBuddyWindow(Adw.ApplicationWindow):
         ex_btn_box = Gtk.Box(spacing=8)
         ex_btn_box.set_halign(Gtk.Align.CENTER)
 
-        check_btn = Gtk.Button(label=_("Kontrollera"))
+        check_btn = Gtk.Button(label=_("Check"))
         check_btn.add_css_class("suggested-action")
         check_btn.connect("clicked", self._on_check_answer)
         ex_btn_box.append(check_btn)

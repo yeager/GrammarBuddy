@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the grammarbuddy package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: grammarbuddy\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:25+0100\n"
+"POT-Creation-Date: 2026-03-17 07:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgid "Page for free text analysis."
 msgstr ""
 
 #: grammarbuddy/window.py:104
-msgid "Textanalys"
+msgid "Text Analysis"
 msgstr ""
 
 #: grammarbuddy/window.py:108
@@ -62,7 +62,7 @@ msgid "Write your opinion here..."
 msgstr ""
 
 #: grammarbuddy/window.py:149
-msgid "Analysera ✏️"
+msgid "Analyze ✏️"
 msgstr ""
 
 #: grammarbuddy/window.py:155
@@ -106,7 +106,7 @@ msgid "Write your answer here..."
 msgstr ""
 
 #: grammarbuddy/window.py:251
-msgid "Kontrollera"
+msgid "Check"
 msgstr ""
 
 #: grammarbuddy/window.py:256

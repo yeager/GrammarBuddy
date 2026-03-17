@@ -2,6 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grammarbuddy 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-17 07:47+0100\n"
 "PO-Revision-Date: 2026-03-16 12:00+0100\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish\n"
@@ -10,114 +11,216 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: grammarbuddy/window.py:1
+msgid "Main window of GrammarBuddy."
+msgstr "Huvudfönster för GrammarBuddy."
+
+#: grammarbuddy/window.py:32
+msgid "Main window."
+msgstr "Huvudfönster."
+
+#: grammarbuddy/window.py:42
+msgid "GrammarBuddy - Swedish grammar training"
+msgstr "GrammarBuddy – Svensk grammatikträning"
+
+#: grammarbuddy/window.py:61
+msgid "Swedish grammar training"
+msgstr "Svensk grammatikträning"
+
+#: grammarbuddy/window.py:67 grammarbuddy/window.py:433
+msgid "Settings"
+msgstr "Inställningar"
+
+#: grammarbuddy/window.py:73
+#, fuzzy
+msgid "Statistics"
+msgstr "Statistics"
+
+#: grammarbuddy/window.py:97
+msgid "Page for free text analysis."
+msgstr "Sida för fritextanalys."
+
+#: grammarbuddy/window.py:104
+#, fuzzy
+msgid "Text Analysis"
+msgstr "Textanalys"
+
+#: grammarbuddy/window.py:108
 msgid "Write a sentence in Swedish. GrammarBuddy helps you with grammar!"
 msgstr "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
 
+#: grammarbuddy/window.py:117
 msgid "Level:"
 msgstr "Nivå:"
 
+#: grammarbuddy/window.py:139
 msgid "Write your opinion here..."
 msgstr "Skriv din mening här..."
 
+#: grammarbuddy/window.py:149
+#, fuzzy
+msgid "Analyze ✏️"
+msgstr "Analysera ✏️"
+
+#: grammarbuddy/window.py:155
+msgid "Clear"
+msgstr "Rensa"
+
+#: grammarbuddy/window.py:162
+#, fuzzy
+msgid "Results"
+msgstr "Resultat"
+
+#: grammarbuddy/window.py:168 grammarbuddy/window.py:371
 msgid "The results are shown here after analysis."
 msgstr "Resultaten visas här efter analys."
 
+#: grammarbuddy/window.py:183
 msgid "Proposed correction"
 msgstr "Föreslagen korrigering"
 
+#: grammarbuddy/window.py:200
 msgid "Points:"
 msgstr "Poäng:"
 
+#: grammarbuddy/window.py:204
+#, fuzzy
+msgid "Page for exercises."
+msgstr "Övningstyp:"
+
+#: grammarbuddy/window.py:211
 msgid "Exercises"
 msgstr "Övningar"
 
+#: grammarbuddy/window.py:216
 msgid "Type of exercise:"
 msgstr "Övningstyp:"
 
-msgid "Press \'New exercise\' to start!"
-msgstr "Tryck på \'Ny övning\' för att börja!"
+#: grammarbuddy/window.py:235
+msgid "Press 'New exercise' to start!"
+msgstr "Tryck på 'Ny övning' för att börja!"
 
+#: grammarbuddy/window.py:243
 msgid "Write your answer here..."
 msgstr "Skriv ditt svar här..."
 
+#: grammarbuddy/window.py:251
+msgid "Check"
+msgstr "Kontrollera"
+
+#: grammarbuddy/window.py:256
 msgid "New exercise"
 msgstr "New övning"
 
+#: grammarbuddy/window.py:260
 msgid "Clue"
 msgstr "Ledtråd"
 
+#: grammarbuddy/window.py:369
+msgid "Clear the text field."
+msgstr "Rensa textfältet."
+
+#: grammarbuddy/window.py:376
+#, fuzzy
+msgid "Load new exercise."
+msgstr "New övning"
+
+#: grammarbuddy/window.py:388
 msgid "No exercises available for this combination."
 msgstr "Inga övningar tillgängliga för denna kombination."
 
+#: grammarbuddy/window.py:394
 msgid "Start an exercise first!"
 msgstr "Start en övning först!"
 
-msgid "Analysera ✏️"
-msgstr "Analysera ✏️"
+#: grammarbuddy/window.py:413
+msgid "View clue."
+msgstr "Visa ledtråd."
 
-msgid "Din statistik"
+#: grammarbuddy/window.py:416
+msgid "No clue available."
+msgstr "Ingen ledtråd tillgänglig."
+
+#: grammarbuddy/window.py:423
+#, fuzzy
+msgid "Your statistics"
 msgstr "Din statistik"
 
-msgid "Föreslagen korrigering"
-msgstr "Föreslagen korrigering"
+#: grammarbuddy/window.py:430
+msgid "View settings."
+msgstr "Visa inställningar."
 
-msgid "Inga övningar tillgängliga för denna kombination."
-msgstr "Inga övningar tillgängliga för denna kombination."
+#: grammarbuddy/window.py:435
+msgid "AI analysis: Set the environment variable OPENAI_API_KEY\n"
+msgstr "AI-analys: Ställ in miljövariabeln OPENAI_API_KEY\n"
 
-msgid "Inställningar"
-msgstr "Settings"
+#: grammarbuddy/window.py:436
+msgid ""
+"to enable AI-based grammar analysis.\n"
+"\n"
+msgstr ""
 
-msgid "Kontrollera"
-msgstr "Kontrollera"
+#: grammarbuddy/window.py:434
+#, fuzzy
+msgid ""
+"Settings are automatically saved.\n"
+"\n"
+msgstr "Inställningar sparas automatiskt"
 
-msgid "Ledtråd"
-msgstr "Ledtråd"
-
-msgid "Nivå:"
-msgstr "Nivå:"
-
-msgid "Ny övning"
+#: grammarbuddy/window.py:454
+#, fuzzy
+msgid "Per exercise type:"
 msgstr "New övning"
 
-msgid "Poäng:"
-msgstr "Poäng:"
+#~ msgid "Föreslagen korrigering"
+#~ msgstr "Föreslagen korrigering"
 
-msgid "Rensa"
-msgstr "Clear"
+#~ msgid "Inga övningar tillgängliga för denna kombination."
+#~ msgstr "Inga övningar tillgängliga för denna kombination."
 
-msgid "Resultat"
-msgstr "Resultat"
+#~ msgid "Inställningar"
+#~ msgstr "Settings"
 
-msgid "Resultaten visas här efter analys."
-msgstr "Resultaten visas här efter analys."
+#~ msgid "Kontrollera"
+#~ msgstr "Kontrollera"
 
-msgid "Skriv din mening här..."
-msgstr "Skriv din mening här..."
+#~ msgid "Ledtråd"
+#~ msgstr "Ledtråd"
 
-msgid "Skriv ditt svar här..."
-msgstr "Skriv ditt svar här..."
+#~ msgid "Nivå:"
+#~ msgstr "Nivå:"
 
-msgid "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
-msgstr "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+#~ msgid "Ny övning"
+#~ msgstr "New övning"
 
-msgid "Starta en övning först!"
-msgstr "Start en övning först!"
+#~ msgid "Poäng:"
+#~ msgstr "Poäng:"
 
-msgid "Statistik"
-msgstr "Statistics"
+#~ msgid "Rensa"
+#~ msgstr "Clear"
 
-msgid "Textanalys"
-msgstr "Textanalys"
+#~ msgid "Resultaten visas här efter analys."
+#~ msgstr "Resultaten visas här efter analys."
 
-msgid "Tryck på 'Ny övning' för att börja!"
-msgstr "Tryck på 'Ny övning' för att börja!"
+#~ msgid "Skriv din mening här..."
+#~ msgstr "Skriv din mening här..."
 
-msgid "Övningar"
-msgstr "Övningar"
+#~ msgid "Skriv ditt svar här..."
+#~ msgstr "Skriv ditt svar här..."
 
-msgid "Övningstyp:"
-msgstr "Övningstyp:"
+#~ msgid ""
+#~ "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+#~ msgstr ""
+#~ "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
 
+#~ msgid "Starta en övning först!"
+#~ msgstr "Start en övning först!"
 
-msgid "Settings are automatically saved"
-msgstr "Inställningar sparas automatiskt"
+#~ msgid "Tryck på 'Ny övning' för att börja!"
+#~ msgstr "Tryck på 'Ny övning' för att börja!"
+
+#~ msgid "Övningar"
+#~ msgstr "Övningar"
+
+#~ msgid "Övningstyp:"
+#~ msgstr "Övningstyp:"

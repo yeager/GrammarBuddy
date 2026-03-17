@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: grammarbuddy 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-16 12:00+0100\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Write a sentence in Swedish. GrammarBuddy helps you with grammar!"
+msgstr "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+
+msgid "Level:"
+msgstr "Nivå:"
+
+msgid "Write your opinion here..."
+msgstr "Skriv din mening här..."
+
+msgid "The results are shown here after analysis."
+msgstr "Resultaten visas här efter analys."
+
+msgid "Proposed correction"
+msgstr "Föreslagen korrigering"
+
+msgid "Points:"
+msgstr "Poäng:"
+
+msgid "Exercises"
+msgstr "Övningar"
+
+msgid "Type of exercise:"
+msgstr "Övningstyp:"
+
+msgid "Press 'New exercise' to start!"
+msgstr "Tryck på 'Ny övning' för att börja!"
+
+msgid "Write your answer here..."
+msgstr "Skriv ditt svar här..."
+
+msgid "New exercise"
+msgstr "New övning"
+
+msgid "Clue"
+msgstr "Ledtråd"
+
+msgid "No exercises available for this combination."
+msgstr "Inga övningar tillgängliga för denna kombination."
+
+msgid "Start an exercise first!"
+msgstr "Start en övning först!"
+
+msgid "Analysera ✏️"
+msgstr "Analysera ✏️"
+
+msgid "Din statistik"
+msgstr "Din statistik"
+
+msgid "Föreslagen korrigering"
+msgstr "Föreslagen korrigering"
+
+msgid "Inga övningar tillgängliga för denna kombination."
+msgstr "Inga övningar tillgängliga för denna kombination."
+
+msgid "Inställningar"
+msgstr "Settings"
+
+msgid "Kontrollera"
+msgstr "Kontrollera"
+
+msgid "Ledtråd"
+msgstr "Ledtråd"
+
+msgid "Nivå:"
+msgstr "Nivå:"
+
+msgid "Ny övning"
+msgstr "New övning"
+
+msgid "Poäng:"
+msgstr "Poäng:"
+
+msgid "Rensa"
+msgstr "Clear"
+
+msgid "Resultat"
+msgstr "Resultat"
+
+msgid "Resultaten visas här efter analys."
+msgstr "Resultaten visas här efter analys."
+
+msgid "Skriv din mening här..."
+msgstr "Skriv din mening här..."
+
+msgid "Skriv ditt svar här..."
+msgstr "Skriv ditt svar här..."
+
+msgid "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+msgstr "Skriv en mening på svenska. GrammarBuddy hjälper dig med grammatiken!"
+
+msgid "Starta en övning först!"
+msgstr "Start en övning först!"
+
+msgid "Statistik"
+msgstr "Statistics"
+
+msgid "Textanalys"
+msgstr "Textanalys"
+
+msgid "Tryck på 'Ny övning' för att börja!"
+msgstr "Tryck på 'Ny övning' för att börja!"
+
+msgid "Övningar"
+msgstr "Övningar"
+
+msgid "Övningstyp:"
+msgstr "Övningstyp:"
+
+
+msgid "Settings are automatically saved"
+msgstr "Inställningar sparas automatiskt"
